@@ -1,7 +1,7 @@
 const billAmount = document.querySelector("#bill-amount");
 
-console.log(billAmount.value);
-console.log(billAmount.value);
+console.log(billAmount.value);//
+console.log(billAmount.value);//
 
 const cashGiven = document.querySelector("#cash-given")
 const checkButton = document.querySelector("#check-button");
