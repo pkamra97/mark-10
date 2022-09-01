@@ -35,3 +35,7 @@ body{
     margin-bottom: 1rem;
     height: 5vh;
 }
+
+.description{
+    font-size: larger;
+}
