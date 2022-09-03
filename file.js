@@ -15,7 +15,13 @@ checkButton.addEventListener("click",function validateBillAndCash(){
     if(billAmount.value>0){
         console.log(billAmount.value);
         console.log(cashGiven.value);
-        if(Number(cashGiven.value) >= Number(billAmount.value))
+
+       if(Number(cashGiven.value)===Number(billAmount.value))  
+        { 
+            showmessage("No need to give any change"); 
+        }
+
+       else if(Number(cashGiven.value) >= Number(billAmount.value))
         {
             const amountToBeReturned=cashGiven.value-billAmount.value;
             calculateChange(amountToBeReturned);
